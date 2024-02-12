@@ -1,5 +1,7 @@
 use bevy::prelude::*;
 
+fn nothing() {}
+
 // Calculate offset because piece is always placed in the middle
 const OFFSET: f32 = (-(8 as f32 / 2.0 * SQUARE_SIZE)) + SQUARE_SIZE / 2.;
 const X_OFFSET: f32 = MARGIN / 2.0;
