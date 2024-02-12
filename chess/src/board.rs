@@ -61,6 +61,7 @@ struct Square {
 struct Point;
 
 // To mark a square to be highlighted
+// new
 #[derive(Component)]
 struct Highlight;
 
