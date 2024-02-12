@@ -1,8 +1,3 @@
-/*              CHESS CLONE 
-By:             Tobias Aichinger
-Bevy version:   "0.8" / 2022
-*/
-
 use bevy::prelude::*;
 
 // Calculate offset because piece is always placed in the middle
