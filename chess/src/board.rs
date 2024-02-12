@@ -28,7 +28,6 @@ impl Plugin for BoardPlugin {
                     .with_system(despawn_taken_pieces)
                     .with_system(select_square.label("select_square"))
                     .with_system(
-                        // move_piece needs to run before select_piece
                         move_piece
                             .after("select_square")
                             .before("select_piece"),
